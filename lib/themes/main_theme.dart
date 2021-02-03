@@ -11,9 +11,11 @@ ThemeData mainTheme = ThemeData(
   textTheme: TextTheme(
     bodyText1: TextStyle(
       color: Colors.white,
+      fontSize: 40,
     ),
     bodyText2: TextStyle(
       color: Colors.white,
+      fontSize: 40,
     ),
   ),
 );
