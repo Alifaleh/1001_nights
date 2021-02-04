@@ -74,6 +74,7 @@ class Nights extends StatelessWidget {
                   ],
                 ),
                 MoviesSlider(
+                  title: 'Movies',
                   children: [
                     MovieCard(
                       movieCardPanal: MovieCardPanal(title: 'New'),
@@ -103,6 +104,46 @@ class Nights extends StatelessWidget {
                     ),
                   ],
                 ),
+                ComingSoonSlider(
+                  title: 'Coming soon',
+                  children: [
+                    ComingSoonCard(
+                      thumbNail:
+                          'https://www.nme.com/wp-content/uploads/2020/10/Chris_Rock_Spiral-1392x884.jpg',
+                      title: 'Speral: From The Book Of Saw',
+                      categories: 'Thriller.Horror.Mystery',
+                    ),
+                    ComingSoonCard(
+                      thumbNail:
+                          'https://www.nme.com/wp-content/uploads/2020/10/Chris_Rock_Spiral-1392x884.jpg',
+                      title: 'Speral: From The Book Of Saw',
+                      categories: 'Thriller.Horror.Mystery',
+                    ),
+                    ComingSoonCard(
+                      thumbNail:
+                          'https://www.nme.com/wp-content/uploads/2020/10/Chris_Rock_Spiral-1392x884.jpg',
+                      title: 'Speral: From The Book Of Saw',
+                      categories: 'Thriller.Horror.Mystery',
+                    ),
+                    ComingSoonCard(
+                      thumbNail:
+                          'https://www.nme.com/wp-content/uploads/2020/10/Chris_Rock_Spiral-1392x884.jpg',
+                      title: 'Speral: From The Book Of Saw',
+                      categories: 'Thriller.Horror.Mystery',
+                    ),
+                  ],
+                ),
+                PickedForYouCard(
+                  movieName: 'The Little Things',
+                  onAdd: () {},
+                  onPlay: () {},
+                  stars: '8',
+                  thumbNail:
+                      'https://www.vitalthrills.com/wp-content/uploads/2020/12/the-little-things.jpg.webp',
+                  time: '120',
+                  title: 'Picked For You',
+                  year: '2021',
+                )
               ],
             ),
           ),
