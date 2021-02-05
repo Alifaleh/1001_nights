@@ -37,6 +37,7 @@ class _TabBarScreenState extends State<TabBarScreen> {
       child: Scaffold(
         body: _pages[_currentPageIndex]['page'],
         bottomNavigationBar: BottomNavigationBar(
+          type: BottomNavigationBarType.fixed,
           backgroundColor: Color.fromRGBO(17, 17, 17, 1),
           selectedItemColor: Theme.of(context).accentColor,
           unselectedItemColor: Color.fromRGBO(143, 143, 143, 1),
